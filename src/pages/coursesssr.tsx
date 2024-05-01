@@ -12,7 +12,7 @@ function Courses({courses}: {courses: Course[]}) {
         )}
     </div>
 }
-
+ 
 function Course({course}: {course: Course}) {
     const router = useRouter();
 

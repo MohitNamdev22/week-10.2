@@ -18,7 +18,9 @@ function Courses() {
     }
 
     useEffect(() => {
-        init();
+        window.setTimeout(()=>{
+            init();
+        },2000)
     }, []);
 
     return <div style={{display: "flex", flexWrap: "wrap", justifyContent: "center"}}>
